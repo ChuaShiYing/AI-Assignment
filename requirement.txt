@@ -1,0 +1,32 @@
+# ---- Core HF stack ----
+transformers>=4.41.0
+datasets>=2.20.0
+accelerate>=0.30.0
+sentencepiece>=0.2.0
+sacrebleu>=2.4.2
+
+# ---- Metrics / helpers ----
+evaluate>=0.4.2
+tqdm>=4.66.0
+
+# ---- NLP utilities (for your report demos) ----
+nltk>=3.8.1
+jieba>=0.42.1
+
+# ---- Classic ML + plotting ----
+scikit-learn>=1.5.0
+matplotlib>=3.9.0
+
+# ---- Data handling ----
+pandas>=2.2.0
+numpy>=1.26.0
+
+# ---- Simple UI ----
+gradio>=4.0.0
+
+# ---- PyTorch (install separately for correct CUDA build) ----
+# torch
+# torchvision
+# torchaudio
+# NOTE: install the proper CUDA-enabled wheels for your GPU (e.g., RTX 3060)
+# using the official PyTorch instructions for your OS/CUDA version.
